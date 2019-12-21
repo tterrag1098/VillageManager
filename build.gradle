@@ -38,7 +38,7 @@ if (project.hasProperty('mod_appendix')) {
 }
 
 minecraft {
-    mappings channel: 'snapshot', version: '20190711-1.14.3'
+    mappings channel: 'snapshot', version: '20191209-1.14.3'
     
     accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
 
